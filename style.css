@@ -31,7 +31,7 @@ html{
 }
 #div2 img{
     width: 100vw;
-    height: 90vh;
+    height: 85vh;
 }
 #div3 {
     display: flex;
@@ -48,9 +48,11 @@ html{
     justify-content: center;
     align-items: flex-start;
     margin-left: 50px;
-    width: 45%;
+    width: 50%;
     font-family: "Poppins";
     color: #624C3F;
+    margin-top: 50px;
+
 }
 #div3 img{
     height: 200px;
@@ -122,4 +124,23 @@ html{
 }
 #div7{
     background-color: #FAE3BD;
+}
+#div8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#FAE3BD ;
+    padding-bottom: 50px;
+}
+.accordion{
+    width: 70vw;
+}
+.accordion-item{
+    margin-top: 20px;
+    background-color: #fff0d7;
+}
+.accordion-button{
+    background-color: #FAE3BD;
+    border: 2px solid #624C3F;
 }
