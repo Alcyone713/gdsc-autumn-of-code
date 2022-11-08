@@ -3,6 +3,7 @@
     padding: 0;
     overflow-x: hidden;
     cursor: url(https://cur.cursors-4u.net/nature/nat-4/nat393.cur), auto !important;
+    background-color: #FAE3BD;
 }
 html{
     scroll-behavior: smooth;
@@ -20,11 +21,13 @@ html{
     background-color: #624C3F;
     position: fixed;
     top: 0;
+    z-index: 100;
 }
 #div1 a {
     color: rgb(215, 213, 213);
     text-decoration: none;
     font-family: "Poppins";
+    background-color: #624C3F;
 }
 #div2 {
     margin-top: 50px;
@@ -37,7 +40,7 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 60vh;
+    /* height: 70vh; */
     align-items: center;
     background-color: #FAE3BD;
     margin-top: -5px;
@@ -51,12 +54,22 @@ html{
     width: 50%;
     font-family: "Poppins";
     color: #624C3F;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 #div3 img{
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 370px;
+    border-radius: 10px;
+}
+#div3 button{
+    background-color: #C64C45;
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    color: white;
 }
 #div4{
     background-color: #FAE3BD;
@@ -69,6 +82,8 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 #div4 .event{
     display: flex;
@@ -100,15 +115,17 @@ html{
 #div6 .projects{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #div6 .projects .project-card{
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 #div6 .projects .project-card img{
-    width: 250px;
+    width: 300px;
     border-radius: 7px;
 }
 #div6 .projects .project-card button{
@@ -125,6 +142,10 @@ html{
 #div7{
     background-color: #FAE3BD;
 }
+#div7 h1{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
 #div8{
     display: flex;
     flex-direction: column;
@@ -132,6 +153,10 @@ html{
     justify-content: center;
     background-color:#FAE3BD ;
     padding-bottom: 50px;
+}
+#div8 h1{
+    margin-top: 100px;
+    margin-bottom: 70px;
 }
 .accordion{
     width: 70vw;
@@ -143,4 +168,8 @@ html{
 .accordion-button{
     background-color: #FAE3BD;
     border: 2px solid #624C3F;
+}
+.carousel-item img{
+    width: 80vw;
+    margin: auto;
 }
